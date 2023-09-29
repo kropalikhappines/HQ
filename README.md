@@ -17,21 +17,21 @@
 
    ```bash
    git clone https://github.com/kropalikhappines/HQ.git
-Создайте и активируйте виртуальное окружение:
+2. Создайте и активируйте виртуальное окружение:
 
 python -m venv venv
 source venv/bin/activate
 ./venv/Scripts/activate
 
-Установите зависимости:
+3. Установите зависимости:
 
 pip install -r requirements.txt
 
-Примените миграции:
+4. Примените миграции:
 
 python manage.py migrate
 
-Запустите сервер:
+5. Запустите сервер:
 
 python manage.py runserver
 
