@@ -63,8 +63,8 @@ URL: /api/products/{product_id}/lessons/
 
 Примечание: Замените {product_id} на ID конкретного продукта.
 
-Лицензия
+## Лицензия
 MIT
 
-Авторы
+## Авторы
 Лазарев Арслан Витальевич - lazarevarslan@yandex.ru, arsik30394@gmail.com
