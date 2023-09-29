@@ -29,6 +29,7 @@
 
 4. Примените миграции:
    ```bash
+   python manage.py makemigration
    python manage.py migrate
 
 5. Запустите сервер:
