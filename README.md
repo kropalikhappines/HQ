@@ -18,28 +18,28 @@
    ```bash
    git clone https://github.com/kropalikhappines/HQ.git
 2. Создайте и активируйте виртуальное окружение:
-
-python -m venv venv
-source venv/bin/activate
-./venv/Scripts/activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ./venv/Scripts/activate
 
 3. Установите зависимости:
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Примените миграции:
-
-python manage.py migrate
+   ```bash
+   python manage.py migrate
 
 5. Запустите сервер:
-
-python manage.py runserver
+   ```bash
+   python manage.py runserver
 
 Использование
 
 Создайте учетную запись суперпользователя:
-
-python manage.py createsuperuser
+   ```bash
+   python manage.py createsuperuser
 
 Зайдите в админ-панель по адресу http://127.0.0.1:8000/admin/ и добавьте продукты и уроки.
 
